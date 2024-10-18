@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b788a939-73c3-4d4b-b62a-a5e36b833176" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/MethodOverLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/StringExe5.java" afterDir="false" />
+    <list default="true" id="b788a939-73c3-4d4b-b62a-a5e36b833176" name="Changes" comment="exercise 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/DateTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DateTime.executor": "Run",
     "Application.LearnStatic.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
@@ -77,11 +76,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringExe5">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.DateTime">
+    <configuration name="DateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.DateTime" />
       <module name="javaLecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateTime" />
         <item itemvalue="Application.StringExe5" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MethodOverLoading" />
         <item itemvalue="Application.MethodsDemo" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,8 +173,17 @@
       <workItem from="1729018498705" duration="887000" />
       <workItem from="1729019400256" duration="72000" />
       <workItem from="1729019504217" duration="79000" />
-      <workItem from="1729019591175" duration="6007000" />
+      <workItem from="1729019591175" duration="8993000" />
     </task>
+    <task id="LOCAL-00001" summary="exercise 5">
+      <option name="closed" value="true" />
+      <created>1729028673195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729028673195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,5 +199,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exercise 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise 5" />
   </component>
 </project>
