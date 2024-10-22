@@ -1,13 +1,18 @@
 package se.lexicon;
 
+import java.time.LocalDate;
+
 public class Car {
 
     String regId;
     String model;
     String color;
-    public Car(String regId, String model, String color) {
-        this.regId = regId;
-        this.model = model;
-        this.color = color;
+    int releaseDate;
+
+    public String getInformation(){
+        String personData ="RegId is: " + regId + "Model is: " + model + " " + color + " " +releaseDate;
+        return personData;
     }
-}
+
+    }
+
